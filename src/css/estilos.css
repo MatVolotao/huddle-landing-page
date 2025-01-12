@@ -1,0 +1,10 @@
+body{
+    background-color: hsl(257, 40%, 49%);
+}
+
+.container {
+    max-width: 1440pxpx;
+    width: 90%;        
+    margin: 0 auto;     
+    background: gray;
+}
