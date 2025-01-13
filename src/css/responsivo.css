@@ -1,0 +1,26 @@
+@media (max-width: 1260px ){
+    .principal{
+        flex-direction: column;
+    }
+
+    .descricao{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .descricao p{
+        max-width: 600px;
+        /* background-color: gray; */
+    }
+
+    .rodape{
+        
+        justify-content: center;
+        
+    }
+
+    
+}
