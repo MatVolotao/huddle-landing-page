@@ -1,10 +1,104 @@
-body{
-    background-color: hsl(257, 40%, 49%);
+html,
+body {
+	height: 100%;
+    font-family: "Open Sans";
+    /* max-height: 100vh; */
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	background-color: hsl(257, 40%, 49%); 
+	background-image: url(../images/bg-desktop.svg); 
+	background-repeat: no-repeat;
+	background-position:center;
+    background-size:cover;  
 }
 
 .container {
-    max-width: 1440pxpx;
-    width: 90%;        
-    margin: 0 auto;     
-    background: gray;
+	max-width: 1440px;
+    max-height: 90%;
+    /* padding: 70px 0; */
+    /* height: 90%; */
+	width: 95%;
+	/* background-color: gray; */
 }
+
+.principal {
+	margin-top: 30px;
+	display: flex;
+	gap: 50px;
+}
+
+.descricao {
+	padding: 80px 0;
+    /* max-width: 40%; */
+}
+
+
+
+h2 {
+    color: white;
+    font-size: 2.5rem;
+    text-transform: capitalize;
+}
+
+p{
+    color: white;
+    line-height:1.5;
+    margin-top: 20px;
+}
+
+button{
+    margin-top: 20px;
+    width: 200px;
+    height: 50px;
+    border-radius: 30px;
+    border: none;
+    font-size: 1.2rem;
+    color: hsl(257, 40%, 49%);
+}
+
+button:hover{
+    background-color: hsl(300, 69%, 71%);
+    color: white;
+    cursor: pointer;
+}
+
+.rodape{
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+}
+
+.circulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+}
+
+.circulo:hover{
+    border: 1px solid hsl(300, 69%, 71%);
+    cursor:pointer;
+    
+}
+
+.circulo:hover * {
+    color: hsl(300, 69%, 71%);      /* Altera a cor dos ícones e do círculo */
+/* Aumenta o tamanho ao passar o mouse */
+}
+
+i{  
+    color: white;
+    font-size: 24px;
+}
+
+
+
+
+
